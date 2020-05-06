@@ -23,7 +23,7 @@ function preload(){
   obstacle4 = loadImage("obstacle4.png");
   obstacle5 = loadImage("obstacle5.png");
   obstacle6 = loadImage("obstacle6.png");
-  gameoveri= loadImage("gameover.png");
+  gameoveri= loadImage("gameOver.png");
   restarti=loadImage("restart.png");
 }
 
@@ -139,7 +139,7 @@ function reset(){
   
   trex.changeAnimation("collided",trex_collided);
   
-  count = 0;
+  score = 0;
   
 }
 
